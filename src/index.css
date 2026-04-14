@@ -124,9 +124,11 @@
 }
 
 /* Esconder marca d'água do Lovable */
-#lovable-badge, 
+#lovable-badge,
+#lovable-badge-cta,
 .lovable-badge,
 [data-lovable-badge],
+[aria-label*="Lovable"],
 .lovable-watermark {
   display: none !important;
   visibility: hidden !important;
