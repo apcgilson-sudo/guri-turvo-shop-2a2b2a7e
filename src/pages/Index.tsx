@@ -147,7 +147,7 @@ const Index = () => {
             ⭐ Representante Oficial PANINI em Turvo
           </div>
           <h1 className="font-bebas text-[clamp(3rem,8vw,6rem)] text-primary-foreground leading-[0.95] mb-4 tracking-wider">
-            FIGURINHAS <span className="text-amarelo">COPA</span><br />DO MUNDO 2026
+            FIGURINHAS <span className="text-amarelo">COPA</span> - SYNC OK<br />DO MUNDO 2026
           </h1>
           <p className="text-lg text-primary-foreground/85 max-w-[600px] mx-auto mb-9 font-semibold leading-relaxed">
             Complete seu álbum, troque com amigos e viva a Copa com a gente! Cadastre-se para garantir seu álbum e pacotes de figurinhas na pré-venda. 🇧🇷
