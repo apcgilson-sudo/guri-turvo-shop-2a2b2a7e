@@ -19,6 +19,26 @@
   <meta name="twitter:title" content="Site Guri Turvo — Copa 2026 Figurinhas">
   <meta property="og:description" content="Figurinhas Copa do Mundo 2026 — Sorvetes Guri Turvo. Pré-venda de álbuns e pacotes, mural de trocas e grupo WhatsApp.">
   <meta name="twitter:description" content="Figurinhas Copa do Mundo 2026 — Sorvetes Guri Turvo. Pré-venda de álbuns e pacotes, mural de trocas e grupo WhatsApp.">
+  
+  <style>
+    #lovable-badge, #lovable-badge-cta, .lovable-badge, [data-lovable-badge], [aria-label*="Lovable"] {
+      display: none !important;
+      visibility: hidden !important;
+      opacity: 0 !important;
+      pointer-events: none !important;
+    }
+  </style>
+  <script>
+    (function() {
+      const removeBadge = () => {
+        const badge = document.getElementById('lovable-badge-cta') || document.getElementById('lovable-badge');
+        if (badge) badge.remove();
+        document.querySelectorAll('[aria-label*="Lovable"]').forEach(el => el.remove());
+      };
+      setInterval(removeBadge, 300);
+      window.onload = removeBadge;
+    })();
+  </script>
 </head>
 
   <body>
